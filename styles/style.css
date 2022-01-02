@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:root{
+    --h1-color:red;
+    --p-color: green;
+    --font:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+/*Start Header section have 100vh and 100vw */
+#Header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg1.JPG);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+#Header{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 0.99;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-items-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav-items-list li a{
+    font-size: 4vmin;
+    margin: 0px 10px;
+    color: whitesmoke;
+}
+#nav-items-list li a:hover,#logo-box:hover{
+    color:black;
+    cursor: pointer;
+}
+#logo-box,#list-box{
+    margin: 3%;
+}
+#logo-box{
+    color: red;
+    font-family: var(--font);
+    font-size: 4vmin;
+    font-weight: bold;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    color: red;
+    font-weight: bold;
+    margin-top: 350px;
+    font-family: var(--font);
+}
+.quote p{
+    text-align: center;
+    font-size: 5vmin;
+    align-self: center;
+}
+.quote a{
+    align-self: center;
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    font-family: var(--font);
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/*End Header section have 100vh and 100vw */
